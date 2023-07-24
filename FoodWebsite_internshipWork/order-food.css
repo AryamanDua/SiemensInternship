@@ -1,0 +1,45 @@
+a,
+a:hover{
+    color: red;
+}
+
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-size: 100%;
+    font-weight: 400;
+}
+.main-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: maroon;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .main-btn:hover {background-color: red}
+  
+  .main-btn:active {
+    background-color: red;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+ .navbar{
+  position: fixed;
+  background-color: transparent;
+ }
